@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;/*paddingとborder高さに含める*/
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+header {
+  padding: 30px 4% 10px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;/*dispkay: flex;の時、右寄せ*/
+  align-items: center;
+  width: 100%; /*幅を指定しないと、横に動かない!!*/
+}
+
+h1 {
+  margin: 0; padding: 0;
+}
+
+nav {
+  margin: 0 0 0 auto;
+  list-style: none;
+}
+
+ul {
+  text-align: right;
+}
+
+li {
+  display: inline;
+
+}
+
+a {
+  text-decoration: none;/*aタグに書くこと！*/
+  color: white;
+}
